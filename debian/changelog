@@ -1,6 +1,11 @@
 kitemmodels (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Rohan Garg ]
   * New upstream alpha release
+
+  [ Scarlett Clark ]
+  * Fix install/control files to match libs renamed to 4.96
+  * Rebuild to correct .pri file path install. 
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:35:06 +0100
 
