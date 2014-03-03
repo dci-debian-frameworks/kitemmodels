@@ -4,4 +4,4 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
-	dh_strip --dbg-package=libkf5itemmodels4-dbg
+	dh_strip --dbg-package=libkf5itemmodels5-dbg
