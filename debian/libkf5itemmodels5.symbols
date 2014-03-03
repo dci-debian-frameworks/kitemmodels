@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5ItemModels.so.4 libkf5itemmodels4 #MINVER#
+libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4.96.0
  _ZN20KCheckableProxyModel14setSourceModelEP18QAbstractItemModel@Base 4.96.0
