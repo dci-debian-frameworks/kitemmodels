@@ -18,7 +18,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kitemmodels
 Package: libkf5itemmodels-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5itemmodels5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5itemmodels5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: additional item/view models for Qt Itemview
  A library which provides additional item/view models for Qt Itemview.
  .
