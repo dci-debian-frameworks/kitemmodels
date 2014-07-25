@@ -7,6 +7,9 @@ kitemmodels (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
   * Update libraries *.install paths so a soname bump doesn't go
     unnoticed.
 
+  [ Rohan Garg ]
+  * Make sure we pass -a to xvfb-run so that xvfb doesn't randomnly fail
+
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 16 Jul 2014 06:29:40 -0700
 
 kitemmodels (5.0.0-0ubuntu1) utopic; urgency=medium
