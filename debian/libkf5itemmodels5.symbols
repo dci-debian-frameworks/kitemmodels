@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4.96.0
@@ -134,6 +134,7 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZNK26KRecursiveFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4.96.0
  _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4.96.0
  _ZNK26KRecursiveFilterProxyModel9acceptRowEiRK11QModelIndex@Base 4.96.0
+ (optional=templinst)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Base 5.1.0
  _ZTI20KCheckableProxyModel@Base 4.96.0
  _ZTI20KSelectionProxyModel@Base 4.96.0
  _ZTI22KDescendantsProxyModel@Base 4.96.0
