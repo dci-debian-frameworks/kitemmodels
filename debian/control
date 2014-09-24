@@ -14,8 +14,8 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kitemmodels
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kitemmodels
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kitemmodels
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kitemmodels.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kitemmodels.git
 
 Package: libkf5itemmodels-dev
 Section: libdevel
