@@ -1,3 +1,9 @@
+kitemmodels (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 14:07:32 -0800
+
 kitemmodels (5.4.0-0ubuntu1) vivid; urgency=medium
 
   [ Harald Sitter ]
