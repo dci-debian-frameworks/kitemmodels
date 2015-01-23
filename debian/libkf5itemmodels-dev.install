@@ -1,4 +1,5 @@
-usr/include/KF5/
-usr/lib/*/*.so
-usr/lib/*/cmake/
-usr/lib/*/qt5/mkspecs/modules/*
+usr/include/KF5/KItemModels/
+usr/include/KF5/kitemmodels_version.h
+usr/lib/*/cmake/KF5ItemModels/
+usr/lib/*/libKF5ItemModels.so
+usr/lib/*/qt5/mkspecs/modules/qt_KItemModels.pri
