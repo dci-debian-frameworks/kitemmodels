@@ -21,7 +21,7 @@ kitemmodels (5.1.0-0ubuntu1) utopic; urgency=medium
 kitemmodels (5.0.0-0ubuntu2) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
