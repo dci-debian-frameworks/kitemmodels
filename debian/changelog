@@ -1,4 +1,4 @@
-kitemmodels (5.6.0-1~) UNRELEASED; urgency=medium
+kitemmodels (5.6.0-1) experimental; urgency=medium
 
   * New upstream release (5.6.0).
   * Bump build dependencies to build against the experimental versions.
@@ -8,7 +8,7 @@ kitemmodels (5.6.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Add basic autopkgtests support.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Jan 2015 14:36:18 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Jan 2015 15:12:16 +0100
 
 kitemmodels (5.2.0-0ubuntu1) utopic; urgency=medium
 
