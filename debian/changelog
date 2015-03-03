@@ -4,6 +4,12 @@ kitemmodels (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:38:25 +0100
 
+kitemmodels (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:17:39 +0100
+
 kitemmodels (5.6.0-1) experimental; urgency=medium
 
   * New upstream release (5.6.0).
@@ -15,6 +21,34 @@ kitemmodels (5.6.0-1) experimental; urgency=medium
   * Add basic autopkgtests support.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Jan 2015 15:12:16 +0100
+
+kitemmodels (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 19:47:32 +0100
+
+kitemmodels (5.5.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:12:19 +0100
+
+kitemmodels (5.4.0-0ubuntu1) vivid; urgency=medium
+
+  [ Harald Sitter ]
+  * Update symbols for i386,amd64
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 15:02:41 +0100
+
+kitemmodels (5.3.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:12:20 +0100
 
 kitemmodels (5.2.0-0ubuntu1) utopic; urgency=medium
 
