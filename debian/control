@@ -22,7 +22,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kitemmodels.git
 Package: libkf5itemmodels-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5itemmodels5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5itemmodels5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: additional item/view models for Qt Itemview
  A library which provides additional item/view models for Qt Itemview.
  .
