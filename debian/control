@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                dbus-x11,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.7.0),
+               extra-cmake-modules (>= 1.8.0),
                openbox,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
