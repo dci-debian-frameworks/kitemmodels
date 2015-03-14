@@ -1,8 +1,8 @@
-kitemmodels (5.8.0-1~) UNRELEASED; urgency=medium
+kitemmodels (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:24:55 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 22:26:56 +0100
 
 kitemmodels (5.7.0-1) experimental; urgency=medium
 
