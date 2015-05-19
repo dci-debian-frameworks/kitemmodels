@@ -3,10 +3,41 @@ Upstream-Name: kitemmodels
 Source: https://projects.kde.org/projects/frameworks/kitemmodels
 
 Files: *
-       debian/*
-Copyright: 2010 Klarälvdalens Datakonsult AB,
-           2009 Stephen Kelly <steveire@gmail.com>
-           2014 Jonathan Riddell <jriddell@ubuntu.com>
+Copyright: 2013, Aurélien Gateau <agateau@kde.org>
+           2010, Klarälvdalens Datakonsult AB
+           2009-2010, Stephen Kelly <steveire@gmail.com>
+License: LGPL-2+
+
+Files: COPYING.LIB
+       autotests/proxymodeltestapp/descendantpmwidget.cpp
+       autotests/proxymodeltestapp/descendantpmwidget.h
+       autotests/proxymodeltestapp/lessthanwidget.cpp
+       autotests/proxymodeltestapp/lessthanwidget.h
+       autotests/proxymodeltestapp/main.cpp
+       autotests/proxymodeltestapp/mainwindow.cpp
+       autotests/proxymodeltestapp/mainwindow.h
+       autotests/proxymodeltestapp/proxymodeltestwidget.cpp
+       autotests/proxymodeltestapp/proxymodeltestwidget.h
+       autotests/proxymodeltestapp/recursivefilterpmwidget.cpp
+       autotests/proxymodeltestapp/recursivefilterpmwidget.h
+       autotests/proxymodeltestapp/reparentingpmwidget.cpp
+       autotests/proxymodeltestapp/reparentingpmwidget.h
+       autotests/proxymodeltestapp/selectionpmwidget.cpp
+       autotests/proxymodeltestapp/selectionpmwidget.h
+Copyright: 1991-1999, Free Software Foundation, Inc
+           2009, Stephen Kelly <steveire@gmail.com>
+License: LGPL-2.1+
+
+Files: autotests/proxymodeltestsuite/modeltest.cpp
+       autotests/proxymodeltestsuite/modeltest.h
+Copyright: 2013, Digia Plc and/or its subsidiary(-ies)
+           2010, Stephen Kelly <steveire@gmail.com>
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2014, Jonathan Riddell <jriddell@ubuntu.com>
+License: LGPL-2+
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -25,3 +56,34 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1
+ GNU Lesser General Public License Usage
+ This file may be used under the terms of the GNU Lesser
+ General Public License version 2.1 as published by the Free Software
+ Foundation and appearing in the file COPYING.LIB included in the
+ packaging of this file.  Please review the following information to
+ ensure the GNU Lesser General Public License version 2.1 requirements
+ will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".

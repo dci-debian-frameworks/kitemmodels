@@ -1,3 +1,32 @@
+kitemmodels (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files from buildds logs (5.9.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:19:39 +0200
+
+kitemmodels (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+  * Update symbols files from buildds logs (5.8.0-1).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:25:23 +0200
+
+kitemmodels (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 22:26:56 +0100
+
+kitemmodels (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+  * Update copyright information.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Mar 2015 12:23:10 +0100
+
 kitemmodels (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -19,6 +48,18 @@ kitemmodels (5.7.0-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:17:39 +0100
+
+kitemmodels (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release (5.6.0).
+  * Bump build dependencies to build against the experimental versions.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update install files.
+  * Update build dependencies to follow cmake.
+  * Update copyright information.
+  * Add basic autopkgtests support.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Jan 2015 15:12:16 +0100
 
 kitemmodels (5.6.0-0ubuntu1) vivid; urgency=medium
 
@@ -65,7 +106,7 @@ kitemmodels (5.1.0-0ubuntu1) utopic; urgency=medium
 kitemmodels (5.0.0-0ubuntu2) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
