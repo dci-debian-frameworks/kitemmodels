@@ -1,6 +1,8 @@
 kitemmodels (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Apply 0001-Update-symbols-files.patch provided by
+    santa. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:14:28 -0700
 
