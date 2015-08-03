@@ -1,4 +1,4 @@
-kitemmodels (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kitemmodels (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Apply 0001-Update-symbols-files.patch provided by
@@ -6,7 +6,7 @@ kitemmodels (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Vivid backports. 
   * Fix broken merge. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:14:28 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:32:32 +0200
 
 kitemmodels (5.11.0-1) unstable; urgency=medium
 
