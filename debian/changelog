@@ -1,6 +1,10 @@
 kitemmodels (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * new upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 15:41:43 +0200
 
