@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64 armhf hurd-i386 i386 kfreebsd-i386 mips x32
 libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4.96.0
@@ -158,7 +158,7 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZNK27KRearrangeColumnsProxyModel5indexEiiRK11QModelIndex@Base 5.12.0
  _ZNK27KRearrangeColumnsProxyModel6parentERK11QModelIndex@Base 5.12.0
  _ZNK27KRearrangeColumnsProxyModel8rowCountERK11QModelIndex@Base 5.12.0
- (optional=templinst|arch=!amd64 !kfreebsd-amd64)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Base 5.7.0
+ (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !x32)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Base 5.7.0
  _ZTI20KCheckableProxyModel@Base 4.96.0
  _ZTI20KSelectionProxyModel@Base 4.96.0
  _ZTI22KDescendantsProxyModel@Base 4.96.0
