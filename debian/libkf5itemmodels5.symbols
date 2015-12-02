@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14 amd64
+# SymbolsHelper-Confirmed: 5.14.0 alpha amd64 arm64 armel mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4.96.0
@@ -89,17 +89,17 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN25KBreadcrumbSelectionModelD0Ev@Base 4.96.0
  _ZN25KBreadcrumbSelectionModelD1Ev@Base 4.96.0
  _ZN25KBreadcrumbSelectionModelD2Ev@Base 4.96.0
- _ZN26KConcatenateRowsProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.14
- _ZN26KConcatenateRowsProxyModel11qt_metacastEPKc@Base 5.14
- _ZN26KConcatenateRowsProxyModel14addSourceModelEP18QAbstractItemModel@Base 5.14
- _ZN26KConcatenateRowsProxyModel16staticMetaObjectE@Base 5.14
- _ZN26KConcatenateRowsProxyModel17removeSourceModelEP18QAbstractItemModel@Base 5.14
- _ZN26KConcatenateRowsProxyModel7setDataERK11QModelIndexRK8QVarianti@Base 5.14
- _ZN26KConcatenateRowsProxyModelC1EP7QObject@Base 5.14
- _ZN26KConcatenateRowsProxyModelC2EP7QObject@Base 5.14
- _ZN26KConcatenateRowsProxyModelD0Ev@Base 5.14
- _ZN26KConcatenateRowsProxyModelD1Ev@Base 5.14
- _ZN26KConcatenateRowsProxyModelD2Ev@Base 5.14
+ _ZN26KConcatenateRowsProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModel11qt_metacastEPKc@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModel14addSourceModelEP18QAbstractItemModel@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModel16staticMetaObjectE@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModel17removeSourceModelEP18QAbstractItemModel@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModel7setDataERK11QModelIndexRK8QVarianti@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModelC1EP7QObject@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModelC2EP7QObject@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModelD0Ev@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModelD1Ev@Base 5.14.0
+ _ZN26KConcatenateRowsProxyModelD2Ev@Base 5.14.0
  _ZN26KRecursiveFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN26KRecursiveFilterProxyModel11qt_metacastEPKc@Base 4.96.0
  _ZN26KRecursiveFilterProxyModel14setSourceModelEP18QAbstractItemModel@Base 4.96.0
@@ -180,17 +180,17 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZNK25KBreadcrumbSelectionModel10metaObjectEv@Base 4.96.0
  _ZNK25KBreadcrumbSelectionModel16breadcrumbLengthEv@Base 4.96.0
  _ZNK25KBreadcrumbSelectionModel25isActualSelectionIncludedEv@Base 4.96.0
- _ZNK26KConcatenateRowsProxyModel10headerDataEiN2Qt11OrientationEi@Base 5.14
- _ZNK26KConcatenateRowsProxyModel10metaObjectEv@Base 5.14
- _ZNK26KConcatenateRowsProxyModel11columnCountERK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel11mapToSourceERK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel13mapFromSourceERK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel4dataERK11QModelIndexi@Base 5.14
- _ZNK26KConcatenateRowsProxyModel5flagsERK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel5indexEiiRK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel6parentERK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel8itemDataERK11QModelIndex@Base 5.14
- _ZNK26KConcatenateRowsProxyModel8rowCountERK11QModelIndex@Base 5.14
+ _ZNK26KConcatenateRowsProxyModel10headerDataEiN2Qt11OrientationEi@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel10metaObjectEv@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel11columnCountERK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel11mapToSourceERK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel13mapFromSourceERK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel4dataERK11QModelIndexi@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel5flagsERK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel5indexEiiRK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel6parentERK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel8itemDataERK11QModelIndex@Base 5.14.0
+ _ZNK26KConcatenateRowsProxyModel8rowCountERK11QModelIndex@Base 5.14.0
  _ZNK26KRecursiveFilterProxyModel10metaObjectEv@Base 4.96.0
  _ZNK26KRecursiveFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4.96.0
  _ZNK26KRecursiveFilterProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 4.96.0
@@ -213,7 +213,7 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZTI23KExtraColumnsProxyModel@Base 5.13.0
  _ZTI23KLinkItemSelectionModel@Base 4.96.0
  _ZTI25KBreadcrumbSelectionModel@Base 4.96.0
- _ZTI26KConcatenateRowsProxyModel@Base 5.14
+ _ZTI26KConcatenateRowsProxyModel@Base 5.14.0
  _ZTI26KRecursiveFilterProxyModel@Base 4.96.0
  _ZTI27KRearrangeColumnsProxyModel@Base 5.12.0
  _ZTS20KCheckableProxyModel@Base 4.96.0
@@ -223,7 +223,7 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZTS23KExtraColumnsProxyModel@Base 5.13.0
  _ZTS23KLinkItemSelectionModel@Base 4.96.0
  _ZTS25KBreadcrumbSelectionModel@Base 4.96.0
- _ZTS26KConcatenateRowsProxyModel@Base 5.14
+ _ZTS26KConcatenateRowsProxyModel@Base 5.14.0
  _ZTS26KRecursiveFilterProxyModel@Base 4.96.0
  _ZTS27KRearrangeColumnsProxyModel@Base 5.12.0
  _ZTV20KCheckableProxyModel@Base 4.96.0
@@ -233,6 +233,6 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZTV23KExtraColumnsProxyModel@Base 5.13.0
  _ZTV23KLinkItemSelectionModel@Base 4.96.0
  _ZTV25KBreadcrumbSelectionModel@Base 4.96.0
- _ZTV26KConcatenateRowsProxyModel@Base 5.14
+ _ZTV26KConcatenateRowsProxyModel@Base 5.14.0
  _ZTV26KRecursiveFilterProxyModel@Base 4.96.0
  _ZTV27KRearrangeColumnsProxyModel@Base 5.12.0

@@ -6,16 +6,15 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                dbus-x11,
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.15.0~),
+               extra-cmake-modules (>= 5.16.0~),
                openbox,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
-               qtdeclarative5-dev,
+               qtdeclarative5-dev (>= 5.3.0~),
                qtscript5-dev (>= 5.4),
                xauth,
                xvfb
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kitemmodels
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kitemmodels.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kitemmodels.git
