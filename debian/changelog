@@ -1,13 +1,14 @@
-kitemmodels (5.20.0-1~1.gbpfea14b) UNRELEASED; urgency=medium
+kitemmodels (5.20.0-1~2.gbpf325ca) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @fea14bb0276bb5f5ec318b1175237b2ebf4ecf9a **
+  ** SNAPSHOT build @f325cabce6f08ed0b24c328705024cca5f725c0b **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 22:38:14 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 19:26:57 +0200
 
 kitemmodels (5.19.0-1) experimental; urgency=medium
 
