@@ -1,6 +1,6 @@
-kitemmodels (5.20.0-1~5.gbp73c224) UNRELEASED; urgency=medium
+kitemmodels (5.20.0-1~6.gbpee66be) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @73c224b9b42aa6e7d24115c61e08bbee376783c6 **
+  ** SNAPSHOT build @ee66be66e3edc17423f7ca8bce200037271fa6e9 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -10,8 +10,9 @@ kitemmodels (5.20.0-1~5.gbp73c224) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:46:37 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:21:05 +0200
 
 kitemmodels (5.19.0-1) experimental; urgency=medium
 
