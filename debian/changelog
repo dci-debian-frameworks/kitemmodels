@@ -1,5 +1,8 @@
-kitemmodels (5.20.0-1~9.gbp144bbc) UNRELEASED; urgency=medium
+kitemmodels (5.21.0-1~1.gbpd6a47c) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @d6a47c4574ed9c7e3132214eeebb2b2ed4d3b254 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @144bbc67baf6714e062c180deec2e30942b268ed **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +17,15 @@ kitemmodels (5.20.0-1~9.gbp144bbc) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:22:21 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:22:17 +0200
 
 kitemmodels (5.19.0-1) experimental; urgency=medium
 
