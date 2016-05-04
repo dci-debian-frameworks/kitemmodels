@@ -3,28 +3,16 @@ kitemmodels (5.21.0-1~2.gbp10aa4b) UNRELEASED; urgency=medium
   ** SNAPSHOT build @10aa4bbed12aa4862d54e2fd51bf24568593c97a **
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @144bbc67baf6714e062c180deec2e30942b268ed **
-
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
   * Bump Standards-Version to 3.9.8
-
-  [ Maximiliano Curia ]
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:03:47 +0200
 
