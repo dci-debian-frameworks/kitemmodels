@@ -1,3 +1,11 @@
+kitemmodels (5.22.0-1~1.gbp7c5696) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7c56960ae6bfcaed2b16b3a5863c4497f8229706 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:22:33 +0200
+
 kitemmodels (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
