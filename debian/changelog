@@ -1,3 +1,11 @@
+kitemmodels (5.24.0-1~1.gbp82e308) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @82e308fe86cdd212b367ed50e65e20c86fe33b72 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:22:22 +0200
+
 kitemmodels (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
