@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.20.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4.96.0
@@ -58,6 +58,7 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN23KExtraColumnsProxyModel12appendColumnERK7QString@Base 5.13.0
  _ZN23KExtraColumnsProxyModel14setSourceModelEP18QAbstractItemModel@Base 5.13.0
  _ZN23KExtraColumnsProxyModel16staticMetaObjectE@Base 5.13.0
+ _ZN23KExtraColumnsProxyModel17removeExtraColumnEi@Base 5.24.0
  _ZN23KExtraColumnsProxyModel18setExtraColumnDataERK11QModelIndexiiRK8QVarianti@Base 5.13.0
  _ZN23KExtraColumnsProxyModel22extraColumnDataChangedERK11QModelIndexiiRK7QVectorIiE@Base 5.13.0
  _ZN23KExtraColumnsProxyModel7setDataERK11QModelIndexRK8QVarianti@Base 5.13.0
