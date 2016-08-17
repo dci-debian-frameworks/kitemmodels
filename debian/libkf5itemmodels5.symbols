@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386
 libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZN20KCheckableProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN20KCheckableProxyModel11qt_metacastEPKc@Base 4.96.0
@@ -174,11 +174,13 @@ libKF5ItemModels.so.5 libkf5itemmodels5 #MINVER#
  _ZNK23KExtraColumnsProxyModel10headerDataEiN2Qt11OrientationEi@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel10metaObjectEv@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel11columnCountERK11QModelIndex@Base 5.13.0
+ _ZNK23KExtraColumnsProxyModel11hasChildrenERK11QModelIndex@Base 5.25.0
  _ZNK23KExtraColumnsProxyModel11mapToSourceERK11QModelIndex@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel20mapSelectionToSourceERK14QItemSelection@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel25extraColumnForProxyColumnEi@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel25proxyColumnForExtraColumnEi@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel4dataERK11QModelIndexi@Base 5.13.0
+ _ZNK23KExtraColumnsProxyModel5buddyERK11QModelIndex@Base 5.25.0
  _ZNK23KExtraColumnsProxyModel5flagsERK11QModelIndex@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel5indexEiiRK11QModelIndex@Base 5.13.0
  _ZNK23KExtraColumnsProxyModel6parentERK11QModelIndex@Base 5.13.0
