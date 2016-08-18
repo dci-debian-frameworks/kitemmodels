@@ -1,19 +1,13 @@
-kitemmodels (5.25.0-1~2.gbpe87f2e) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e87f2e8c9bfb17ef4e57f12991fb0ceeb90ebfa3 **
+kitemmodels (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @99345ab70a5f1738d8f475f634efa7e41496d340 **
-
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files.
   * Update symbols files.
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:22:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:18:51 +0200
 
 kitemmodels (5.23.0-1) unstable; urgency=medium
 
