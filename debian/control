@@ -29,7 +29,7 @@ Description: additional item/view models for Qt Itemview
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-Breaks: libkf5kdelibs4support-dev (<< 5.25)
+Breaks: libkf5kdelibs4support-dev (<< 5.26)
 
 Package: libkf5itemmodels5
 Architecture: any
