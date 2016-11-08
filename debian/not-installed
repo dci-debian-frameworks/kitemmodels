@@ -1,0 +1,3 @@
+# Renamed from python3.x/ to python3/
+usr/lib/python3.*/dist-packages/PyKF5/__init__.py
+usr/lib/python3.*/dist-packages/PyKF5/KItemModels.so
