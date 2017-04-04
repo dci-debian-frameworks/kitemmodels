@@ -1,0 +1,79 @@
+From: David Faure <faure@kde.org>
+Date: Fri, 16 Dec 2016 10:23:09 +0100
+Subject: Fix assert (in beginRemoveRows) when deselecting an empty child of a
+ selected child in korganizer
+
+After
+   int proxyEndRemove = proxyStartRemove;
+   proxyEndRemove += rc; was adding 0 (empty root)
+and then --proxyEndRemove; was making us end up with proxyEndRemove < proxyStartRemove.
+
+REVIEW: 129657
+---
+ autotests/kselectionproxymodeltest.cpp | 14 ++++++++++++++
+ src/kselectionproxymodel.cpp           |  6 +++---
+ 2 files changed, 17 insertions(+), 3 deletions(-)
+
+diff --git a/autotests/kselectionproxymodeltest.cpp b/autotests/kselectionproxymodeltest.cpp
+index 483e7c4..da8ce13 100644
+--- a/autotests/kselectionproxymodeltest.cpp
++++ b/autotests/kselectionproxymodeltest.cpp
+@@ -310,6 +310,13 @@ void KSelectionProxyModelTest::deselection_data()
+             << 1
+             << QStringList{"4"} << 5;
+     ++testNumber;
++
++    QTest::newRow(QByteArray("test" + QByteArray::number(testNumber)).data())
++            << static_cast<int>(KSelectionProxyModel::ChildrenOfExactSelection)
++            << QStringList{"6", "7"} << 1
++            << 0
++            << QStringList{"7"} << 1;
++    ++testNumber;
+ }
+ 
+ void KSelectionProxyModelTest::deselection()
+@@ -604,6 +611,13 @@ void KSelectionProxyModelTest::removeRows_data()
+                   << 1
+                   << QStringList{"9", "9"} << 2;
+           ++testNumber;
++
++          QTest::newRow(QByteArray("test" + QByteArray::number(testNumber)).data())
++                  << static_cast<int>(kspm_mode) << connectSelectionModelFirst << false
++                  << QStringList{"6", "8", "11"} << 4
++                  << 0
++                  << QStringList{"8", "8"} << 4;
++          ++testNumber;
+       }
+   }
+ 
+diff --git a/src/kselectionproxymodel.cpp b/src/kselectionproxymodel.cpp
+index 0f57c70..873e974 100644
+--- a/src/kselectionproxymodel.cpp
++++ b/src/kselectionproxymodel.cpp
+@@ -1176,7 +1176,7 @@ QPair<int, int> KSelectionProxyModelPrivate::beginRemoveRows(const QModelIndex &
+     }
+ 
+     --proxyEndRemove;
+-    if (proxyEndRemove >= 0) {
++    if (proxyEndRemove >= proxyStartRemove) {
+         return qMakePair(proxyStartRemove, proxyEndRemove);
+     }
+     return qMakePair(-1, -1);
+@@ -1750,7 +1750,7 @@ void KSelectionProxyModelPrivate::removeSelectionFromProxy(const QItemSelection
+     }
+ 
+     --proxyEndRemove;
+-    if (proxyEndRemove >= 0) {
++    if (proxyEndRemove >= proxyStartRemove) {
+         q->beginRemoveRows(QModelIndex(), proxyStartRemove, proxyEndRemove);
+ 
+         rootIt = m_rootIndexList.erase(rootRemoveStart, rootIt);
+@@ -1953,7 +1953,7 @@ void KSelectionProxyModelPrivate::insertSelectionIntoProxy(const QItemSelection
+ 
+             if (rowCount == 0) {
+                 // Even if the newindex doesn't have any children to put into the model yet,
+-                // We still need to make sure it's future children are inserted into the model.
++                // We still need to make sure its future children are inserted into the model.
+                 m_rootIndexList.insert(rootListRow, newIndex);
+                 if (!m_resetting || m_layoutChanging) {
+                     emit q->rootIndexAdded(newIndex);
