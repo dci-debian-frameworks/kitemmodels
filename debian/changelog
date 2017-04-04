@@ -1,4 +1,4 @@
-kitemmodels (5.28.0-2~) UNRELEASED; urgency=medium
+kitemmodels (5.28.0-2) unstable; urgency=medium
 
   * Add new upstream patch:
     Fix-assert-in-beginRemoveRows-when-deselecting-an-empty-c.patch
@@ -7,7 +7,7 @@ kitemmodels (5.28.0-2~) UNRELEASED; urgency=medium
   * Add new upstream patch:
     Update-proxies-for-recently-realised-class-of-bugs.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Apr 2017 17:47:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Apr 2017 18:03:26 +0200
 
 kitemmodels (5.28.0-1) unstable; urgency=medium
 
