@@ -1,0 +1,3 @@
+Fix-assert-in-beginRemoveRows-when-deselecting-an-empty-c.patch
+KExtraColumnsProxyModel-Persist-model-indexes-after-emitt.patch
+Update-proxies-for-recently-realised-class-of-bugs.patch

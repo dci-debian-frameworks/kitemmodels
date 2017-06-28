@@ -40,6 +40,17 @@ kitemmodels (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:07:32 +0000
 
+kitemmodels (5.28.0-2) unstable; urgency=medium
+
+  * Add new upstream patch:
+    Fix-assert-in-beginRemoveRows-when-deselecting-an-empty-c.patch
+  * Add new upstream patch:
+    KExtraColumnsProxyModel-Persist-model-indexes-after-emitt.patch
+  * Add new upstream patch:
+    Update-proxies-for-recently-realised-class-of-bugs.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Apr 2017 18:03:26 +0200
+
 kitemmodels (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
