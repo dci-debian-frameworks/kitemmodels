@@ -1,7 +1,14 @@
 Tests: testsuite
-Depends: @, @builddeps@, build-essential, xvfb, xauth, dbus (>= 1.8)
+Depends: build-essential,
+         dbus (>= 1.8),
+         openbox,
+         qtscript5-dev (>= 5.6.0~),
+         xauth,
+         xvfb,
+         @,
+         @builddeps@
 Restrictions: build-needed
 
 Tests: acc
-Depends: @, dh-acc, exuberant-ctags
+Depends: dh-acc, exuberant-ctags, @
 Restrictions: allow-stderr
