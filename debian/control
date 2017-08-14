@@ -5,10 +5,10 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.36.0~),
+               extra-cmake-modules (>= 5.37.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.6.0~),
-               qtdeclarative5-dev (>= 5.6.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qtdeclarative5-dev (>= 5.7.0~)
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kitemmodels
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kitemmodels.git
@@ -18,7 +18,7 @@ Package: libkf5itemmodels-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5itemmodels5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.6.0~),
+         qtbase5-dev (>= 5.7.0~),
          ${misc:Depends}
 Description: additional item/view models for Qt Itemview
  A library which provides additional item/view models for Qt Itemview.
